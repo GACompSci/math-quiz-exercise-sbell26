@@ -6,11 +6,11 @@ public class App {
        int b = Methods.randInt(1,10 );
        int answer = reader.getInt("what is " + a +  " + " + b + ": ");
        int score = 0;
-       if (answer == a + +b){
+       if (answer == a + b){
             score += 1;
             System.out.println("correct your new score is" + score + "/1" );
     } else {
-        System.out.println("incorrect");
+        System.out.println("incorrect The correct answer is" + a + b + "your new score is" + score + "/1");
     //subtraction
     }
      int c = Methods.randInt(1, 10);
@@ -21,9 +21,9 @@ public class App {
  
        if (answerb == Methods.roundDouble(2, cd - dd)){
             score += 1;
-            System.out.println("correct your new score is" + score + "/2" );
+            System.out.println("correct your new score is" + score + "/2");
     } else {
-        System.out.println("incorrect");   
+        System.out.println("incorrect the correct answer is" + (cd-dd) + "your new score is" + score + "/2" );   
 }
 //multiplcation
         int e = Methods.randInt(1, 10);
@@ -33,7 +33,7 @@ public class App {
             score += 1;
             System.out.println("correct your new score is" + score + "/3" );
     } else {
-        System.out.println("incorrect");
+        System.out.println("incorrect the correct answer is" + e * f + "your new score is" + score + "/3" );
 }
 //divison double
     int g = Methods.randInt(1, 10);
@@ -46,7 +46,7 @@ public class App {
             score += 1;
             System.out.println("correct your new score is" + score + "/4" );
     } else {
-        System.out.println("incorrect");  
+        System.out.println("incorrect the correct answer is" + gh/ hh + "your new score is" + score + "/4");  
         //mod  
 }
  int i = Methods.randInt(1, 10);
@@ -56,7 +56,7 @@ public class App {
             score += 1;
             System.out.println("correct your new score is" + score + "/5" );
     } else {
-        System.out.println("incorrect");
+        System.out.println("incorrect the correct answer is" + i % j + "your new score is" + score + "/5" );
 }
 }
 }
